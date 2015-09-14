@@ -98,7 +98,7 @@ public class Interfaz {
     public void BuscarProducto(Peluchitos[] Producto, int i){
         teclado= new Scanner(System.in);
         find=false;
-        //nombre=teclado.nextLine();
+        nombre=teclado.nextLine();
         if(nombre.equals(Producto[i].nombre)){
             System.out.println("Nombre: "+Producto[i].nombre);
             System.out.println("Cantidad: "+Producto[i].cantidad);
